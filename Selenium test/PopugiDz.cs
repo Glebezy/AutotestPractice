@@ -218,7 +218,7 @@ namespace Selenium_test
         }
 
         [Test]
-        public void PopugSite_RadioGender_F5EmptyForm()
+        public void PopugSite_F5afterSubmit_EmptyForm()
         {
             driver.Navigate().GoToUrl(testUrl);
             SendForm();
